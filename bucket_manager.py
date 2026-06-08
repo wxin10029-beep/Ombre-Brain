@@ -153,7 +153,7 @@ class BucketManager:
             metadata["pinned"] = True
         if protected:
             metadata["protected"] = True
-         if verbatim:
+        if verbatim:
             metadata["verbatim"] = True
 
         # --- Assemble Markdown file (frontmatter + body) ---
