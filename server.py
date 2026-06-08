@@ -782,6 +782,7 @@ async def hold(
     tags: str = "",
     importance: int = 5,
     pinned: bool = False,
+    verbatim: bool = False,
     feel: bool = False,
     source_bucket: str = "",    valence: float = -1,
     arousal: float = -1,
