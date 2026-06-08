@@ -865,6 +865,7 @@ async def hold(
             name=suggested_name or None,
             bucket_type="permanent",
             pinned=True,
+            verbatim=verbatim
         )
         try:
             await embedding_engine.generate_and_store(bucket_id, content)
